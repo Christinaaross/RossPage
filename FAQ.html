@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang = "en">
+   
+        
+    <head>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "brand.css"  >
+    </head>
+    <body>
+      <header> 
+
+                <div class= "container"> 
+                <div class = "site-title">
+                <h1> Ross Lake Country Club  </h1>  
+                <p class="subtitle">  EXCLUSIVE LAKES AND ACTIVITES </p>
+                   
+                </div>
+                    <br>
+            <nav>
+                
+                <ul> 
+                <li> <a href= "home.html" class="current-page" > Home </a>  </li>
+                  <li><a href= "about.html"> About Us  </a> </li>
+                 <li> <a href= "contact.html" > Contact </a> </li>
+                 <li> <a href = "Products.html" > Products </a></li>
+                <li> <a href = "FAQ.html" > FAQs </a></li>
+                </ul>
+                
+            </nav>
+                    
+          </div> <!--/ container -->
+        
+        <br>
+            </header> 
+     <main> 
+                <h2>Frequently Asked Questions</h2>
+        <p1>Click on the question to display answer.</p1>
+         <br>
+
+        <button class="accordion">How much is the membership?</button>
+        <div class="panel">
+          <p>Membership ranges from prices. However, they are typically over $1000 plus an addtional monthly fee.</p>
+        </div>
+    
+        <button class="accordion"> What types of water activites do we offer?</button>
+        <div class="panel">
+          <p>We have a wide range of water activites such as kayaking, tubbing, paddleboarding, waterskiing, and much more. </p>
+        </div>
+
+        <button class="accordion">Provide Childcare? </button>
+        <div class="panel">
+          <p> Want to get away from the kids? Enroll them into our child daycare ages 1-11.</p>
+        </div>
+         
+         <button class="accordion">Will my family be able to use the Club?</button>
+           <div class="panel">
+          <p>Yes, one membership for the whole immediate family. The immediate family of the member is entitled to use the Club facilities.  The immediate family includes the member, spouse and children under the age of 26.</p>
+        </div>
+
+        <button class="accordion">Can I bring a guest?</button>
+        <div class="panel">
+          <p> Yes, guest are allowed to come as long as they fill out the necessary forms. They are allowed to come free for the first time and $50 for any other additional time.</p>
+        </div>
+
+        <button class="accordion">Are there food and beverage minimums?</button>
+        <div class="panel">
+          <p>No. We pride ourselves on not having a food and beverage minimum.  It is our hope that our members enjoy the atmosphere and the food so much that they utilize the club to the fullest on their own free will.</p>
+        </div>
+         
+         <button class="accordion">Do i need to bring any equipment?</button>
+           <div class="panel">
+          <p> No. We provide everything you will need to enjoy your time at Ross Lake. That includes, towels and life-vest</p>
+        </div>
+
+        <button class="accordion">Does the club allow use of its facilities for non-member events?</button>
+        <div class="panel">
+          <p>The clubhouse has a variety of rooms that will accommodate your special function.  We have the capacity for small groups of as little as 10 on up to 250 people.  We are here to make each and every event that you or someone you know a very pleasurable experience.  It is easy to sponsor an event for a friend or associate, simply refer them to Edgewood and ask that they use your name as a reference.  No financial obligation is required.</p>
+        </div>
+
+        <button class="accordion">What Are Your Hours Of Operation?</button>
+        <div class="panel">
+          <p> We are open everyday of the week. Monday- Friday: 7am-7pm. Saturday-Sunday: 6am-9pm</p>
+        </div>
+         
+         <button class="accordion">How long is a membership?</button>
+        <div class="panel">
+          <p>Your membership is for a full year from the time when you join.  For example, if you become a member in June 2023, your membership is good until May 2024.</p>
+        </div>
+
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+<br>
+        </main>
+    
+    <br>
+        
+        
+   <br> 
+   <footer>
+                 Copyright &copy;RosslakeCountryClub  <br>
+        <span id="mail"> <a href= "mailto: Rosslake@gmail.com" > Rosslake@gmail.com </a> </span> <br>
+        <a id="mobile" href="tel:201-111-0000">Phone: 201-111-0000</a> 
+    </footer>
+      
+            </body>
+</html>

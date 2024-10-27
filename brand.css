@@ -1,0 +1,194 @@
+
+
+header{
+padding: 2em 0;
+background-image: url(resort.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+background-size: 100% 100%;
+height: 400px;} 
+
+
+h1{font-style: "Lora", serif;
+font-weight: 400;
+color:floralwhite;
+font-size: 2rem;
+display: contents; /*brings the subtitle close to brand name*/}
+
+p1{ text-align: center; font-family: monospace;
+font-size: 1.2rem;
+display: block;}
+
+#mykayak{ background-image: url(mykayak.jpg);
+background-position: left;}
+
+#boat{background-image: url(boats.jpg);
+background-position: right;
+background-attachment: fixed;
+background-repeat: no-repeat;}
+
+#jetski{background-image: url(jetski.jpg);
+background-position: left;
+background-attachment: fixed;
+background-repeat: no-repeat;}
+
+.conabout{ margin:auto;
+margin-bottom: 5%;
+margin-top: 5%;
+margin-left: 7%;
+margin-right: 7%;}
+
+#model{padding-bottom: 20px;
+padding-right: 420px;
+margin: auto;}
+
+.video{text-align: center;}
+
+#view img{
+display: flex;
+padding-right: 50px;
+padding-top: 100px;
+padding-left: 30px;}
+
+#lobby{background-image: url(lobby.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;}
+
+p3 {color: ghostwhite;
+float:right;
+padding-right: 130px;
+padding-top: 170px;
+font-size: 2rem;
+font-family: serif;
+font-style: italic;
+font-weight: bold;}
+
+.welcome{color:floralwhite;
+position: absolute;
+top: 50%;
+left: 50%;}
+    
+background-position: center;}
+
+b{font-family: monospace;}
+
+footer{
+background-image: url(resort.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+background-size: 100% 100%;
+height: 250px;
+color: whitesmoke;
+text-align: center;
+padding-top: 50px;
+display: block;}
+
+#mobile{color: gainsboro;}
+#mail{color: gainsboro;}
+
+.video{object-position: right;}
+
+h2{font-style: serif;
+font-weight: 400;
+color: #006633;
+font-size: 1.5rem;
+text-align: center;}
+
+main ul li{ font-family: 'Libre Franklin', sans-serif;
+text-decoration: none;
+font-size: 1.20rem;
+color:dimgray;
+display: block;
+text-align: center;
+padding-right: 50px;}
+
+.subtitle{ font-weight: bold;
+color: #006633;
+font-size: .75rem;
+    margin: 0;} 
+
+nav ul {
+list-style: none;
+display:flex;
+padding: 0;
+justify-content: flex-end;}
+
+nav li{ margin-left: 2em;
+color:#9fdfbf;}
+
+nav a { text-decoration: none;
+color:floralwhite;
+font-weight: 700;
+padding: .25em 0;}
+
+nav a:hover{ }
+
+body{background-color:floralwhite;
+margin: 0;
+font-family: "Ubuntu", sans-serif;}
+
+body h4{color: black;
+padding-left: 80px;
+font-size: 2em;
+font-weight: 300;}
+
+maincontact{ padding-left: 50px;
+margin: 0;}
+
+.current-page{border-bottom: 1px solid #707070;}
+
+.current-page:hover{ color: #707070;}
+
+.container { width: 90%;
+max-width: 900px;
+margin: 0 auto;}
+
+.cotainer-nav{ display: flex;
+justify-content: space-between;
+}
+
+@media(max-width:675px){
+    .container-nav{flex-direction: column; /*will look normal when you adjustscreen */}
+    nav ul{flex-direction: column;}
+    nav li{ margin: .5em;}}
+ 
+nav li{margin-left: 2em;
+color: floralwhite;}
+
+.accordion {
+  background-color:floralwhite;
+  color:cadetblue;
+  cursor: pointer;
+  padding: 18px;
+  width: 150%;
+  border: none;
+  text-align:left;
+  outline: solid green;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color:beige;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#shopCart{ width: 90%; padding: 1em; margin-left: 5%; margin-right: 5%; 
+margin-top: 1em; margin-bottom: 1em; 
+background-color:white;
+border: solid black;
+display: block;}
+
+#shopCart #shop{display: flex;}
+
+label { float: left; display: block; text-align: right; font-weight: bold; width: 10em; padding-right:1em;}
+input, textarea { display: block; margin-bottom: 2em;}
+input[type="submit"] { margin-left: 12em;}
+form { padding: 3em;}
